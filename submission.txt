@@ -1,0 +1,12 @@
+## Cara Menjalankan Script ETL
+python main.py
+
+## Cara Menjalankan Unit Test
+$env:PYTHONPATH="."; pytest
+pytest --cov=utils tests/
+
+## Cara Menjalankan Test Coverage
+coverage report
+
+## URL Google Sheets
+https://docs.google.com/spreadsheets/d/xxxxx/edit?usp=sharing
