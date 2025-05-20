@@ -5,6 +5,7 @@ python main.py
 
 ## Cara Menjalankan Unit Test
 $env:PYTHONPATH="."; pytest
+
 pytest --cov=utils tests/
 
 ## Cara Menjalankan Test Coverage
